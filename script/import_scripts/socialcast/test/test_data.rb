@@ -7204,7 +7204,7 @@ MESSAGES_PG_2 = '{
                     "id": 18,
                     "url": "http://www.youtube.com/watch?v=Ce7ivrGMN0U",
                     "title": "World of Warcraft: The Molten Core",
-                    "description": "WORLD OF WARCRAFT COMING TO CONSOLES WITH MOLTEN CORE™ Blizzard Entertainment, Inc. announces its long-awaited return to console gaming with World of Warcraf...",
+                    "description": "WORLD OF WARCRAFT COMING TO CONSOLES WITH MOLTEN CORE™ Blizzard Entertainment, Inc. announces its long-awaited return to console gaming with World of Warcraft...",
                     "canonical_hashtag": null,
                     "type": "video",
                     "source": {
@@ -7218,7 +7218,7 @@ MESSAGES_PG_2 = '{
                         "provider_url": "http://www.youtube.com/",
                         "url": "http://www.youtube.com/watch?v=Ce7ivrGMN0U",
                         "title": "World of Warcraft: The Molten Core",
-                        "description": "WORLD OF WARCRAFT COMING TO CONSOLES WITH MOLTEN CORE™ Blizzard Entertainment, Inc. announces its long-awaited return to console gaming with World of Warcraf...",
+                        "description": "WORLD OF WARCRAFT COMING TO CONSOLES WITH MOLTEN CORE™ Blizzard Entertainment, Inc. announces its long-awaited return to console gaming with World of Warcraft...",
                         "type": "video",
                         "thumbnail_url": "https://socialcast-demo.s3.amazonaws.com/tenants/5/media_files/17/17-hqdefault_stream_square.jpg?AWSAccessKeyId=AKIAIV34WIEKJKCLRBBQ&Expires=1465128000&Signature=JNSkKs69%2FPkpqn1P3i11h1GiRz0%3D",
                         "html": "<iframe width=\"600\" height=\"338\" src=\"https://www.youtube.com/embed/Ce7ivrGMN0U?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
@@ -7233,7 +7233,7 @@ MESSAGES_PG_2 = '{
                         {
                             "canonical": true,
                             "title": "World of Warcraft: The Molten Core",
-                            "description": "WORLD OF WARCRAFT COMING TO CONSOLES WITH MOLTEN CORE™ Blizzard Entertainment, Inc. announces its long-awaited return to console gaming with World of Warcraf...",
+                            "description": "WORLD OF WARCRAFT COMING TO CONSOLES WITH MOLTEN CORE™ Blizzard Entertainment, Inc. announces its long-awaited return to console gaming with World of Warcraft...",
                             "thumbnails": {
                                 "stream": "https://socialcast-demo.s3.amazonaws.com/tenants/5/media_files/17/17-hqdefault_stream.jpg?AWSAccessKeyId=AKIAIV34WIEKJKCLRBBQ&Expires=1465128000&Signature=UIN82KwunBGmsr9Th6ejv5vayAw%3D",
                                 "stream_square": "https://socialcast-demo.s3.amazonaws.com/tenants/5/media_files/17/17-hqdefault_stream_square.jpg?AWSAccessKeyId=AKIAIV34WIEKJKCLRBBQ&Expires=1465128000&Signature=JNSkKs69%2FPkpqn1P3i11h1GiRz0%3D",
