@@ -96,7 +96,7 @@
         "author" : {
           "uid" : "204973f4-2dfe-494c-b1b2-3cd1cbac34f0",
           "name" : "204973f4-2dfe-494c-b1b2-3cd1cbac34f0",
-          "email" : "eexcited@mydomain.com",
+          "email" : "excited@mydomain.com",
           "firstName" : "Eddy",
           "lastName" : "Excited",
           "title" : "Member",
