@@ -184,7 +184,7 @@ describe DiscourseTagging do
 
       context 'tag synonyms' do
         fab!(:base_tag) { Fabricate(:tag, name: 'discourse') }
-        fab!(:synonym) { Fabricate(:tag, name: 'discource', target_tag: base_tag) }
+        fab!(:synonym) { Fabricate(:tag, name: 'discourse', target_tag: base_tag) }
 
         it 'returns synonyms by default' do
           tags = DiscourseTagging.filter_allowed_tags(Guardian.new(user),
