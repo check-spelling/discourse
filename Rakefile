@@ -9,5 +9,5 @@ require File.expand_path('../config/application', __FILE__)
 Discourse::Application.load_tasks
 
 # this prevents crashes when migrating a database in production in certain
-# PostgreSQL configuations when trying to create structure.sql
+# PostgreSQL configurations when trying to create structure.sql
 Rake::Task["db:structure:dump"].clear if Rails.env.production?
