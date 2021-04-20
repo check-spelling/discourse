@@ -2734,14 +2734,14 @@ export default {
           domain: "github.com",
         },
         {
-          url: "http://pootle.locamotion.org/",
+          url: "http://pootle.locomotion.org/",
           title: "Main | Pootle Demo",
           fancy_title: null,
           internal: false,
           reflection: false,
           clicks: 2,
           user_id: 3190,
-          domain: "pootle.locamotion.org",
+          domain: "pootle.locomotion.org",
         },
         {
           url: "http://www.youtube.com/watch?v=MqqdzJ98q7s",
