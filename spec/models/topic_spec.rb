@@ -2327,7 +2327,7 @@ describe Topic do
       expect(topic.expandable_first_post?).to eq(false)
     end
 
-    describe 'with an emeddable host' do
+    describe 'with an embeddable host' do
       before do
         Fabricate(:embeddable_host)
         SiteSetting.embed_truncate = true
