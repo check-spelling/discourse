@@ -394,7 +394,7 @@ describe HtmlToMarkdown do
 
   end
 
-  it "supoorts <table>" do
+  it "supports <table>" do
     html = <<~HTML
       <table>
         <thead>
