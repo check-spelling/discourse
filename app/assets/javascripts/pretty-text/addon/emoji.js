@@ -71,7 +71,7 @@ Object.keys(aliases).forEach((name) => {
   aliases[name].forEach((alias) => (aliasHash[alias] = name));
 });
 
-function isReplacableInlineEmoji(string, index, inlineEmoji) {
+function isReplaceableInlineEmoji(string, index, inlineEmoji) {
   if (inlineEmoji) {
     return true;
   }
@@ -121,11 +121,11 @@ export function performEmojiUnescape(string, opts) {
       classes = `${classes} ${opts.class}`;
     }
 
-    const isReplacable =
+    const isReplaceable =
       (isEmoticon || hasEndingColon || isUnicodeEmoticon) &&
-      isReplacableInlineEmoji(string, index, inlineEmoji);
+      isReplaceableInlineEmoji(string, index, inlineEmoji);
 
-    return url && isReplacable
+    return url && isReplaceable
       ? `<img width="20" height="20" src='${url}' ${
           opts.skipTitle ? "" : `title='${emojiVal}'`
         } ${
@@ -145,7 +145,7 @@ export function performEmojiEscape(string, opts) {
   );
 
   return string.replace(regexp, (m, index) => {
-    if (isReplacableInlineEmoji(string, index, inlineEmoji)) {
+    if (isReplaceableInlineEmoji(string, index, inlineEmoji)) {
       if (!!allTranslations[m]) {
         return opts.emojiShortcuts ? `:${allTranslations[m]}:` : m;
       } else if (!!replacements[m]) {
