@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class RenameDigestUnsbscribeKeys < ActiveRecord::Migration[4.2]
+class RenameDigestUnsubscribeKeys < ActiveRecord::Migration[4.2]
   def up
     rename_table :digest_unsubscribe_keys, :unsubscribe_keys
 
