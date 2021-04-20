@@ -131,7 +131,7 @@ module Discourse
       config.assets.paths << "#{config.root}/node_modules"
     end
 
-    # Allows us to skip minifincation on some files
+    # Allows us to skip minification on some files
     config.assets.skip_minification = []
 
     # explicitly precompile any images in plugins ( /assets/images ) path
